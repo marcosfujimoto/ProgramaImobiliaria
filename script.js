@@ -18,7 +18,7 @@ do {
             imovel.garagem = prompt("Imóvel possui garagem? SIM/NÃO")
 
             imoveis.push(imovel)
-            break // 👈 importante
+            break 
 
         case 2: 
             for (let i = 0; i < imoveis.length; i++) {
